@@ -1,5 +1,5 @@
 # ServerClient
-This script creates a server and displays how a client and server connect and how they interact,
+This script creates a server and displays a client and server handshake and how they interact,
 Sending a greeting message to the server (b'Hello server') and receiving a message back (b'Hello client').
 Server will disconnect if client sends message (b'disconnect'). 
 ### Run the Server:
