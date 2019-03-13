@@ -3,21 +3,25 @@ This script creates a server and displays a client and server handshake and how 
 Sending a greeting message to the server (b'Hello server') and receiving a message back (b'Hello client').
 Server will disconnect if client sends message (b'disconnect'). 
 ### Run the Server:
-### Takes in 3 Commands: Script Name, IP, Server PORT (1234):
+### 
 ```
-server.py 69.89.31.226 1234
+Prompt: 
+[*] started listening  192.168.56.1 : 1234
+[*] Got a connection from  192.168.56.1 : 57133
+[*] Received ' b'Hello server' ' from the client
+ Processing data
+ Processing done.
+[*] Reply sent
 ```
 
 
 
-### For Client:
-```>>> socket.gethostname()
->>> socket.gethostname()
-'Computer Name Here'
->>> socket.gethostbyname('Computer Name Here')
-'Your IP'
->>> client.connect(('Your IP',1234))
->>> client.sendall(b'Hello server')
->>> client.recv(1024)
-b'Hello client'
+### Run Client:
+```
+Prompt:
+Response from server:
+
+>>> b'Hello client'
+
+Press enter key to exit...
 ```
